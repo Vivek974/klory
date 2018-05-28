@@ -12,7 +12,7 @@ document.write(
 
 function hello(bouton){
 	var depart = document.location.href;
-	var index = depart.lastIndexOf('SiteISN') + 8;
+	var index = depart.lastIndexOf('klory') + 18;
 	var ref = depart.substr(0,index);
 	var arrive = '';
 	if(bouton == 1){
