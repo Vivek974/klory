@@ -16,7 +16,7 @@ function hello(bouton){
 	var ref = depart.substr(0,index);
 	var arrive = '';
 	if(bouton == 1){
-		arrive = ref + 'index.html';
+		arrive = ref;
 	}
 	if(bouton == 2){
 		arrive = ref + 'pages/explication.html';
