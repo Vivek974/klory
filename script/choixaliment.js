@@ -76,10 +76,10 @@ document.write(
 				<option value=245>Campaillette</option>\
 				<option value=406>Chouquettes</option>\
 				<option value=400>Croissant</option>\
-				<option value=435>Painauchocolat</option>\
-				<option value=330>Painauxraisins</option>\
-				<option value=230>Paincomplet</option>\
-				<option value=288>Paindemie</option>\
+				<option value=435>Pain au chocolat</option>\
+				<option value=330>Pain aux raisins</option>\
+				<option value=230>Pain complet</option>\
+				<option value=288>Pain demie</option>\
 			</optgroup>\
 		\
 			<optgroup label="Fast-Food">\
@@ -90,19 +90,19 @@ document.write(
 				<option value=199>Pizza Margherita</option>\
 			</optgroup>\
 		\
-			<optgroup label="Pƒtes">\
+			<optgroup label="Pâtes">\
 				<option value=122>Coquillettes</option>\
 				<option value=157>Farfalle</option>\
 				<option value=153>Fusilis</option>\
 				<option value=126>Gnocchis</option>\
 				<option value=178>Macaronis</option>\
-				<option value=135>Pƒtes au bl‚ complet</option>\
+				<option value=135>Pâtes au blé complet</option>\
 				<option value=162>Spaghettis</option>\
 				<option value=164>Tagliatelles</option>\
 			</optgroup>\
 			\
 			<optgroup label="Alcool">\
-				<option value=80>BiŠre</option>\
+				<option value=80>Bière</option>\
 				<option value=70>Champagne</option>\
 				<option value=125>Martini</option>\
 				<option value=68>Vin Blanc</option>\
