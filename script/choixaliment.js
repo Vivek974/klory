@@ -19,7 +19,7 @@ document.write(
 		\
 			<optgroup label="Boissons">\
 				<option value=48>Jus de Fruits</option>\
-				<option value=100>Coca Cola (verre de 250ml)</option>\
+				<option value=40>Coca Cola (verre de 250ml)</option>\
 			</optgroup>\
 		\
 			<optgroup label="Dessert">\
