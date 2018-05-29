@@ -11,9 +11,6 @@ body{
 .intro{
 
 	font-family: Comic Sans MS;
-
-	text-align: center;
-
 	color: Gray;
 
 
@@ -41,15 +38,7 @@ body{
 strong{
 
 	color: maroon;
-
 	text-decoration: underline;
-
-	
-
-
-
-
-
 
 
 }
@@ -67,150 +56,16 @@ strong:hover{
 div{
 
 	background-color: Wheat;
-
-}
-
-.div2, .div3, .div4{
-
-	border: 2px inset IndianRed;
-
-	background-color: LightYellow;
-
- : 
-
-
-
 }
 
 
-
-.intro{
-
-	position: relative;
-
-	top: 170px;
-
-	text-align: center 
-
-
-
-}
-
-
-
-.div2{
-
-	position: relative;
-
-	top: 400px;
-
-}
-
-
-
-.div3{
-
-	position: relative;
-
-	top:450px;
-
-}
-
-.div4{
-
-	position: relative;
-
-	top: 500px;
-
-}
-
-.div1{
-
-	background-color:#D2B48C  ;
-
-	positi
-
-	on: relative;
-
-	top: 400px;
-
-	left: 200PX
-
-	
-
-}
-
-.phrase{
-
-	font-weight: bold;
-
-	color: tomato;
-
-	text-align: center
-
-	
-
-}
-
-.img1{
-
-	position: absolute;
-
-	left: 400px;
-
-	top:300px;
-
-	size:200px;
-
-align-content: center;
-
-
-}
-.img3{
-
-	position: absolute;
-
-	left: 200px;
-
-	top:97px;
-
-	size:200px;
-
-align-content: center;
-
-}
-}
-.img4a{
-
-	position: absolute;
-
-	left: 100px;
-
-align-content: center;
-{
-
-}
-
-.img5{
-
-	position: 
-
-	right: 800px;
-
-	size:100px;
-	padding-top: 50px;
-
-
-}
-
-
-}button{
+button{
 
 	background-color: #4CAF50;;
 
 	border: 2px solid #4CAF50;
     
-	font-size: 20px;
+	font-size: 15px;
 
 	float: center;
 
@@ -223,8 +78,6 @@ align-content: center;
 
 button:hover{
 
-	font-size: 30px;
-
 	box-shadow: 0 12px 19px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 
 	transition: 0.9s;
@@ -232,17 +85,26 @@ button:hover{
 }
 .menunav{
 
-	padding-left: 300px;
+	text-align: center;
 
 }
-
-.img4,.img4a,.img5{
-	padding-left: 200px;
+.dimg1{
+	text-align: center;
+	background-color: #D2B48C;
 }
-
-
-
-
-
-
-
+.intro{
+	text-align: center;
+}
+.phrase{
+	text-align: center;
+	background-color: #D2B48C;
+	color: red;
+}
+.div2,.div3,.div4{
+	border: 3px tomato groove;
+	margin-top: 20px;
+	font-size: large;
+}
+.image{
+	text-align: center;
+}
