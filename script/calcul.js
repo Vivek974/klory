@@ -25,6 +25,7 @@ function cal(){
 		}
 		if (sexe == 'homme') {
 			calRequis = (13.7516*poids) + (500.33*taille) - (6.7550*age) + 66.473;
+			calRequis = calRequis * act;
 		}
 
 		if(attentes =='maigrir'){
