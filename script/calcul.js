@@ -1,12 +1,12 @@
 function cal(){
-	document.getElementById('resultat1').style.opacity = '1';
-	document.getElementById('resultat2').style.opacity = '1';
-	document.getElementById('resultat3').style.opacity = '1';
-	document.getElementById('resultat4').style.opacity = '1';
+	document.getElementById('resultat1').style.opacity = '0';
+	document.getElementById('resultat2').style.opacity = '0';
+	document.getElementById('resultat3').style.opacity = '0';
+	document.getElementById('resultat4').style.opacity = '0';
 	var sexe = elemSelected("sexe");
-	var age = document.getElementById('age').value;
+	var age = Math.round(document.getElementById('age').value);
 	var taille = document.getElementById('taille').value;
-	var poids = document.getElementById('poids').value;
+	var poids = Math.round(document.getElementById('poids').value);
 	var act = elemSelected('act');
 	var attentes = elemSelected('attentes');
 	console.log('sexe' + sexe + 'age' + age + 'taille' + taille + 'poids' + poids + 'act' + act + 'attentes' + attentes);
